@@ -19,7 +19,7 @@
                 </li>
 
                 <li class="navigation__list-item">
-                    <a href="../game/#game" page="game">ИГРАТЬ</a>
+                    <a href="../redactor/#redactor" page="redactor">РЕДАКТОР</a>
                 </li>
             </ul>
         </nav>

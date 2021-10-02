@@ -1,0 +1,30 @@
+.unit__content {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+}
+.unit__content:focus {
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #4e66d3bd;
+    color: #fff;
+}
+.table__row {
+    border-top: 2px solid #4e66d3;
+    border-bottom: 2px solid #4e66d3;
+}
+.table__column {
+    border-spacing: 0;
+}
+.table__column,
+.table__title {
+    border-right: 2px solid #4e66d3;
+}
+.table__column:first-child,
+.table__title:first-child {
+    border-left: 2px solid #4e66d3;
+}

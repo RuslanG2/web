@@ -1,4 +1,16 @@
+const table = [
+    ["ФИО", "Адрес", "Возраст", "Специальность"],
+    ["Андрей Петров", "Ухтомского 30", "21", "Ремонтник"],
+    ["Ваня Пупкин", "Бакалинская 60", "13", "Инженер"]
+];
+
 $(document).ready(function () {
+
+    if ($("#table").length) {
+        $("#table").tableredactor(table); // 5 лаба!!!!!
+    }
+
+
     var gets = (function () {
         var a = window.location.search;
         var b = new Object();

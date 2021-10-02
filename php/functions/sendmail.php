@@ -14,5 +14,5 @@ function sendMail($text, $title, $email)
                 </body>
                 </html>
                 ';
-    mail('lolkash52@gmail.com', $title,  $message, $headers);
+    mail('ufcclubgallyamov@gmail.com', $title,  $message, $headers);
 }

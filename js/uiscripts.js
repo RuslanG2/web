@@ -88,7 +88,8 @@ $(document).ready(function () {
 
         $("#date").datepicker({
             dateFormat: "dd.mm.yy",
-            minDate: new Date()
+            minDate: new Date(),
+            monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
         });
 
 
